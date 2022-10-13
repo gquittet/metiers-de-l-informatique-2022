@@ -1,0 +1,12 @@
+html.dark {
+    --slidev-slide-container-background: rgb(18, 18, 18) !important;
+}
+
+html:not(.dark) {
+    --slidev-slide-container-background: rgb(255, 255, 255) !important;
+}
+
+html:not(.dark) .slidev-layout.end {
+    background-color: var(--slidev-slide-container-background);
+    color: rgba(24, 24, 24, var(--tw-text-opacity));
+}
